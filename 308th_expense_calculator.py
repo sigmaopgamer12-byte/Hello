@@ -111,8 +111,8 @@ class expense_calculator:
       return False
     del self.data[name]
     print(f"{GREEN} {name} successfully deleted! {RESET}")
-    return True
     self.save_data()
+    return True
 # ==================MAIN===================
 if __name__ == "__main__":
   calculator = expense_calculator()
